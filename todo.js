@@ -2,11 +2,6 @@ const Customer = mongoose.model('Customer', customerSchema);
 
 module.exports = Customer;
 
-const todoSchema = new mongoose.Schema({
-  name: String,
-  age: Number,
-});
-
 const mongoose = require('mongoose');
 const prompt = require('prompt-sync')();
 const Customer = require('./models/customer');
@@ -34,6 +29,12 @@ const createCustomer = async () => {
      // });
    // }
  // };
+
+
+
+  
+
+
 
 
 
